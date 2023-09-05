@@ -1,0 +1,81 @@
+:root {
+    --color: rgb(44, 44, 44);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    background-color: #3273dc;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.menu h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 20pt;
+    line-height: 1.125;
+}
+
+.iconGH {
+    height: 80px;
+}
+
+svg {
+    color: white;
+    fill: #00d1b2;
+}
+
+article {
+    margin: 40px 0;
+}
+
+#invisible {
+    display: none;
+    transition: all 0.5;
+}
+/* 
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+.faixa-cep {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 10px;
+    color: white;
+    font-weight: 450;
+    box-shadow: 1px 1px 3px rgb(200, 200, 200);
+    background-color: var(--color);
+}
+.container-image {
+    background-color: rgba(0,0,0,0.6);
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.faixa-cep strong {
+    color: white;
+}
+
+#campo_cep {
+    padding: 10px;
+    border: 1px solid var(--color);
+    box-shadow: 1px 1px 3px rgb(200, 200, 200);
+    color: rgb(105, 105, 105);
+    background-color: rgba(228, 228, 228, 0.4);
+}
